@@ -7,7 +7,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/mujeyejd'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/mujeyejd-cloud/225-lab3-1.git'                   // <------change this
-        KUBECONFIG = credentials('mujeyejd-225')                                             // <------change this
+        KUBECONFIG = credentials('mujeyej-fl26')                                             // <------change this
     }
 
     stages {
